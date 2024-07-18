@@ -1,32 +1,60 @@
-
+*
 head {
     position: relative;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family:'Courier New', Courier, monospace
   }
-  
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.navbar ul{
+  list-style-type:none;
+  background-color:rgb(11, 95, 11);
+  font-weight: bolder;
+  padding:0%
+ 
+
+}
+.navbar a{
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 15px;
+  display:block;
+  width: 495px;
+  background-color: rgb(11, 95, 11);;
+
+}
+.navbar a:hover{
+  background-color:rgb(141, 219, 141);
+}
+.navbar li{
+  float:right;
+}
   main {
     padding-top: 100px;
     text-align:center;
   }
-  
   h1 {
     text-align: center;
+    color: black;
   }
-  
   img {
     position: relative;
-    margin-bottom: 50px;
-    left: 600px;
+    margin-bottom: 30px;
+    left: 650px;
     display: block;
+    height: 300px;
+    width: 300px;
   }
   header {
       position: absolute;
+      color: aliceblue;
   }
   p {
     text-align: center;
-    color: black
+    color: black;
   }
   .topline {
     background-color:rgb(11, 95, 11);
@@ -36,20 +64,27 @@ head {
     top: 0;
     width: 100%;
     height: 100px;
-  }
-  li {
-    text-align:center;
-    background-color: peachpuff;
+    box-shadow:5px;
 
   }
   section{
-    padding-top: 110px;
+    padding-top: 50px;
   }
   h2{
     background-color: peachpuff;
     padding-bottom: 20px;
     text-align: center;
+    border: 20px;
+    border-color: brown;
   }
+  form {
+  box-sizing: border-box;
+  width: 300px;
+  border: 3px solid #886e67;
+  border-radius: 20px;
+  align-content: center;
+}
+
   .wrapper-main {
     color: black;
     background-color: peachpuff;
@@ -59,14 +94,21 @@ head {
     display: block;
 
   }
+
+  form, label, input, button {
+    align-items: center;
+    align-content: center;
+  }
   a href {
     text-align: center;
   }
 
   footer {
-    background-color:forestgreen;
+    background-color:rgb(11, 95, 11);
     height: auto;
     text-align: center;
     padding: 20px;
     color: white;
+
+
   }
